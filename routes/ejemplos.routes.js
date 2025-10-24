@@ -3,7 +3,7 @@ const ejemplo = Router();
 
 ejemplo.get('/', (req, res) => {
     res.json({
-        msg: 'get alllAPI' 
+        msg: 'get all API' 
     })
 });
 
