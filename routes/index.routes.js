@@ -1,7 +1,10 @@
-import ejemplo from './ejemplos.routes.js';
+
 import { Router } from 'express';
-const indexRoutes = Router();
+import meetionRoutes from './meetion.routes.js'; 
 
-indexRoutes.use('/ejemplo', ejemplo);
+const router = Router();
 
-export default indexRoutes;
+router.use('/meetion', meetionRoutes); 
+
+
+export default router;
